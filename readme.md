@@ -1,66 +1,88 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
-
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+<p align="center"> 
+ <a href="https://orchid.software/"><img src="https://raw.githubusercontent.com/orchidsoftware/.github/e23597cffa8cbf24d47913ce903fcc7aa4a59335/web/avatars/orchid-github-splash.svg" alt="Laravel Orchid"></a>
 </p>
 
-## About Laravel
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+<h4 align="center">For the full documentation, visit <a href="http://orchid.software">orchid.software</a>.</h4>
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+Orchid is a free [Laravel](https://laravel.com) package that abstracts standard business logic and allows code-driven rapid application development of back-office applications, admin/user panels, and dashboards.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+<p align="center">
+<a href="https://github.com/orchidsoftware/platform/actions"><img src="https://github.com/orchidsoftware/platform/workflows/Tests/badge.svg"></a>
+<a href="https://codecov.io/gh/orchidsoftware/platform"><img src="https://codecov.io/gh/orchidsoftware/platform/branch/master/graph/badge.svg" /></a>
+<a href="https://packagist.org/packages/orchid/platform"><img alt="Packagist" src="https://img.shields.io/packagist/dt/orchid/platform.svg"></a>
+<a href="https://opencollective.com/orchid"><img src="https://img.shields.io/opencollective/all/orchid" alt="Open Collective backers and sponsors"></a>
+</p>
 
-## Learning Laravel
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+### Interesting Features
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+- **Rapid Application Development** - Focus on PHP development and don't lose time with HTML, CSS, or JavaScript. Build application logic, not admin panels. Try the [quick start guide](https://orchid.software/en/docs/quickstart/) and kick-start the application's development.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+- **Form Builder** - Prevent reinventing the wheel or forms. Orchid already supports many [form elements](https://orchid.software/en/docs/field/) "out of the box" and allows building all kinds of forms quickly.
 
-## Laravel Sponsors
+- **Fast Loading Times** - Enjoy an SPA like performance! Transitions can be made without reloading a page and require no additional code. Thanks to the [Hotwire](https://hotwire.dev/) project, Orchid makes this a satisfying experience for both users and developers.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+- **Access Permissions & Roles** - Take advantage of [granular access permissions](https://orchid.software/en/docs/access/), based on a user’s identity and corresponding role membership.
 
-### Premium Partners
+- **Filtering & Sorting** - Offer users the ability to filter and sort data quickly! Orchid uses an [Eloquent based filtering/sorting approach](https://orchid.software/en/docs/quickstart-sort-filter-table/).
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+- **Fast Full-Text Search** - Take advantage of the integrated [Laravel Scout based full-text search](https://orchid.software/en/docs/global-search/), which allows searching through all available content and displaying search results almost instantly.
 
-## Contributing
+- **Multiple Notifications Types** - Orchid offers [various types of notifications](https://orchid.software/en/docs/alert/) and allows the application to keep users informed appropriately.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
 
-## Code of Conduct
+<!--
+https://github.com/orgs/orchidsoftware/discussions/2649
+### Live Demo
+ 
+<a href="https://demo.orchid.software/login">
+  <img src="https://raw.githubusercontent.com/orchidsoftware/platform/master/.github/IMAGES/promo-full.png" alt="Laravel Orchid Platform" align="center" />
+</a>
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+Curious but not (yet) in the mood to read the documentation? Click [here](https://demo.orchid.software/login), to experience a live demo of Orchid.
 
-## Security Vulnerabilities
+-->
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+<!--
+## Getting started
+
+### Documentation
+
+* 🌍 [Documentation & Quick Start Guide](https://orchid.software/en/docs)
+* 🇷🇺 Чтобы ознакомиться с руководством, посетите сайт [orchid.software](https://orchid.software/ru/docs)
+
+
+### Blog
+
+Orchid's [blog](https://blog.orchid.software/) informs about news and announcements around Laravel Orchid, including related projects.
+-->
+
+## Community
+
+Continually striving to actively include feedback from the community in the development of Orchid greatly benefits its progress.
+Support from the community is invaluable when providing well-structured and detailed feedback.
+
+### GitHub
+
+Create [issues](https://github.com/orchidsoftware/platform/issues) to report problems or participate in [discussions](https://github.com/orchidsoftware/platform/discussions) to ask questions, share ideas, and give opinions.
+
+### Telegram User Groups
+
+Join the [Global Community](https://t.me/orchid_community), [Russian Community](https://t.me/orchid_russian_community), or [Spanish Community](https://t.me/esLaravelOrchid) on Telegram.
+
+### Discord
+
+Join the [Discord](https://discord.gg/NxXhSHa5tq) server to chat with other Orchid users and the development team.
+
+## Support Orchid
+
+Thanks to the support of backers 🙏, Orchid is now available for both private and commercial purposes, free of charge. 🎉
+Voluntary donations enable the team to allocate more time towards improving Orchid for the benefit of all users! 👍
+
+<a href="https://opencollective.com/orchid#backers" target="_blank"><img src="https://opencollective.com/orchid/sponsors.svg?width=838"></a>
+<a href="https://opencollective.com/orchid#backers" target="_blank"><img src="https://opencollective.com/orchid/backers.svg?width=838"></a>
 
 ## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Orchid is covered by the MIT license. Check [the license](LICENSE) for further information.
