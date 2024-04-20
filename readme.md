@@ -47,7 +47,7 @@ Curious but not (yet) in the mood to read the documentation? Click [here](https:
 <!--
 ## Getting started
 
-### Documentation
+### Documentation.
 
 * 🌍 [Documentation & Quick Start Guide](https://orchid.software/en/docs)
 * 🇷🇺 Чтобы ознакомиться с руководством, посетите сайт [orchid.software](https://orchid.software/ru/docs)
