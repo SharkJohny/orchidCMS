@@ -34,6 +34,46 @@ class PlatformProvider extends OrchidServiceProvider
     public function menu(): array
     {
         return [
+            Menu::make('Kolekce *')
+                ->icon('bs.file-text')
+                ->title('Obsah')
+                ->route(config('platform.index')),
+            Menu::make('Navigece *')
+                ->icon('bs.list')
+                ->route(config('platform.index')),
+            Menu::make('Taxanomie *')
+                ->icon('bs.tag')
+                ->route(config('platform.index')),
+            Menu::make('Assety *')
+                ->icon('bs.images')
+                ->route(config('platform.index')),
+            Menu::make('Globální proměnné *')
+                ->icon('bs.globe-europe-africa')
+                ->route(config('platform.index')),
+
+
+            Menu::make('Blueprinty *')
+                ->icon('bs.map')
+                ->title('Pole')
+                ->route(config('platform.index')),
+            Menu::make('Fieldsety *')
+                ->icon('bs.input-cursor-text')
+                ->route(config('platform.index')),
+
+            Menu::make('Formulaře *')
+                ->icon('bs.textarea-resize')
+                ->title('Nástavení')
+                ->route(config('platform.index')),
+            Menu::make('Aktualizace *')
+                ->icon('bs.cloud-arrow-down')
+                ->route(config('platform.index')),
+            Menu::make('Rozšíření *')
+                ->icon('bs.bag-plus')
+                ->route(config('platform.index')),
+            Menu::make('Nastavení *')
+                ->icon('bs.gear')
+                ->route(config('platform.index')),
+
             Menu::make('Get Started')
                 ->icon('bs.book')
                 ->title('Navigation')
