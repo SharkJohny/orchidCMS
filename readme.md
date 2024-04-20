@@ -17,7 +17,7 @@ Orchid is a free [Laravel](https://laravel.com) package that abstracts standard 
 
 ### Interesting Features
 
-- **Rapid Application Development** - Focus on PHP development and don't lose time with HTML, CSS, or JavaScript. Build application logic, not admin panels. Try the [quick start guide](https://orchid.software/en/docs/quickstart/) and kick-start the application's development.
+- **Rapid Application Development** - test Focus on PHP development and don't lose time with HTML, CSS, or JavaScript. Build application logic, not admin panels. Try the [quick start guide](https://orchid.software/en/docs/quickstart/) and kick-start the application's development.
 
 - **Form Builder** - Prevent reinventing the wheel or forms. Orchid already supports many [form elements](https://orchid.software/en/docs/field/) "out of the box" and allows building all kinds of forms quickly.
 
@@ -47,7 +47,7 @@ Curious but not (yet) in the mood to read the documentation? Click [here](https:
 <!--
 ## Getting started
 
-### Documentation.
+### Documentation
 
 * 🌍 [Documentation & Quick Start Guide](https://orchid.software/en/docs)
 * 🇷🇺 Чтобы ознакомиться с руководством, посетите сайт [orchid.software](https://orchid.software/ru/docs)
