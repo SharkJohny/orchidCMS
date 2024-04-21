@@ -38,9 +38,9 @@ class PlatformProvider extends OrchidServiceProvider
                 ->icon('bs.file-text')
                 ->title('Obsah')
                 ->route(config('platform.index')),
-            Menu::make('Navigece *')
+            Menu::make('Navigece')
                 ->icon('bs.list')
-                ->route(config('platform.index')),
+                ->route('platform.navigations'),
             Menu::make('Taxanomie *')
                 ->icon('bs.tag')
                 ->route(config('platform.index')),
