@@ -91,8 +91,8 @@ class NavigationScreen extends Screen
                         return Dropdown::make(__('Actions'))
                             ->icon('options-vertical')
                             ->list([
-                                Button::make(__('Edit'))
-                                    ->method('showNavigationEditScreen')
+                                Link::make(__('Edit'))
+                                    ->route('platform.navigation.edit', $navigation->id)
                                     ->icon('pencil')
                                     ->parameters(['id' => $navigation->id]),
 

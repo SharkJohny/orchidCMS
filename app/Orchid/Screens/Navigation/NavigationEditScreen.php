@@ -2,6 +2,7 @@
 
 namespace App\Orchid\Screens\Navigation;
 
+
 use App\Models\Menu;
 use Orchid\Screen\TD;
 use App\Models\MenuItem;
@@ -104,11 +105,18 @@ class NavigationEditScreen extends Screen
 
         return [
             Layout::table('NavigationItems', [
+                TD::make()
+                    ->width('40px')
+                    ->class('page-move')
+                    ->render(function ($NavigationItem) {
+                        //return   '<div class="page-move w-6"></div>';
+                    }),
                 TD::make('title', __('Title'))
                     ->sort()
                     ->filter(TD::FILTER_TEXT)
+
                     ->render(function ($NavigationItem) {
-                        // dd($NavigationItem->translations->first()->title);
+
                         $text = ($NavigationItem->translations->first()->title);
 
                         return   "<div > $text</div>";
@@ -131,6 +139,7 @@ class NavigationEditScreen extends Screen
                                     ->parameters(['id' => $NavigationItems->id]),
                             ]);
                     }),
+
             ]),
 
             Layout::modal('CreateMenuItem', [
